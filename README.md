@@ -1,12 +1,11 @@
 # 工程简介
 ##资料
-关于spring的文档，帮助构建各种开发功能
-https://spring.io/guides
-本项目所使用的依赖
-https://spring.io/guides/gs/serving-web-content/
-
+[spring 文档](https://spring.io/guides)
+[spring web](https://spring.io/guides/gs/serving-web-content/)
+[leaf 依赖](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
+[Github OAuth](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
 ## 工具
-https://git-scm.com/downloads
+[git](https://git-scm.com/downloads)
 
 ##git常用命令
 git init    使用当前目录作为git仓库
@@ -22,3 +21,4 @@ git checkout 分支名字   切换到某一个分支
 git merge 分支名字  将后面的分支合并到当前分支上
 git push origin 标签名字    推送一个本地的标签到远程
 
+0b0f37c8ae15c2c05803f1392a872d589867f609
