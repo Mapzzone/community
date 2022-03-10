@@ -9,9 +9,9 @@ public class GithubUser {
     }
 
     public GithubUser(String login, Long id, String node_id) {
-        this.login = login;
+        this.login = login;//name
         this.id = id;
-        this.node_id = node_id;
+        this.node_id = node_id;//bio
     }
 
     public String getLogin() {
@@ -36,5 +36,14 @@ public class GithubUser {
 
     public void setNode_id(String node_id) {
         this.node_id = node_id;
+    }
+
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "login='" + login + '\'' +
+                ", id=" + id +
+                ", node_id='" + node_id + '\'' +
+                '}';
     }
 }

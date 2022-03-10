@@ -5,7 +5,7 @@
 [leaf 依赖](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
 [Github OAuth](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
 ## 工具
-[git](https://git-scm.com/downloads)
+[git工具](https://git-scm.com/downloads)
 
 ##git常用命令
 git init    使用当前目录作为git仓库
@@ -21,4 +21,17 @@ git checkout 分支名字   切换到某一个分支
 git merge 分支名字  将后面的分支合并到当前分支上
 git push origin 标签名字    推送一个本地的标签到远程
 
-0b0f37c8ae15c2c05803f1392a872d589867f609
+
+##脚本
+```sql
+create table user
+(
+    id           int auto_increment
+        primary key,
+    account_id   varchar(50) null,
+    name         varchar(50) null,
+    token        char(36)    null,
+    gmt_create   bigint      null,
+    gmt_modified bigint      null
+);
+```
