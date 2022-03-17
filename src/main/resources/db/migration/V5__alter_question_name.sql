@@ -1,0 +1,1 @@
+rename table queston to question;
